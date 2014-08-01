@@ -1,5 +1,6 @@
 html {
-  background-color: grey; }
+  background-image: url("http://subtlepatterns.com/patterns/tweed.png");
+  background-attachment: fixed; }
 
 body {
   margin: 0px;
@@ -10,25 +11,28 @@ header {
   text-align: center; }
   header h1 {
     font-size: 5em;
-    background-color: grey;
+    background-image: url("http://subtlepatterns.com/patterns/binding_light.png");
     margin: 0;
     height: 150px;
-    padding-top: 20px; }
+    padding-top: 20px;
+    color: grey; }
   header h2 {
-    background-color: yellow;
+    background-image: url("http://subtlepatterns.com/patterns/tweed.png");
+    background-attachment: fixed;
     margin: 0; }
     header h2 a {
       text-decoration: none;
       font-size: 2em;
-      color: grey; }
+      color: #eaea4a; }
     header h2 a:hover {
-      color: black; }
+      color: #d0d0b9; }
 
 .container {
   display: block;
   width: 100%;
   margin-top: 20px;
-  background-color: grey; }
+  background-image: url("http://subtlepatterns.com/patterns/tweed.png");
+  background-attachment: fixed; }
   .container ul {
     text-align: center;
     margin: 0;
