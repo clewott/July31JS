@@ -16,17 +16,17 @@ $(document).ready(function() {
 $('.Album1 li').click(function(event) {
 
     event.preventDefault();
-    $(this).siblings('li').toggle(); return false; });
+    $(this).siblings('li').toggle(); });
 
 $('.Album2 li').click(function(event) {
 
     event.preventDefault();
-    $(this).siblings('li').toggle(); return false; });
+    $(this).siblings('li').toggle(); });
 
 $('.Album3 li').click(function(event) {
 
     event.preventDefault();
-    $(this).siblings('li').toggle(); return false; });
+    $(this).siblings('li').toggle(); });
 
 
 });

@@ -41,6 +41,9 @@ header {
 
 .tn, .Album1, .Album2, .Album3 {
   display: none; }
+  .tn img, .Album1 img, .Album2 img, .Album3 img {
+    height: 350px;
+    width: 350px; }
 
 .currentPage {
   display: block; }

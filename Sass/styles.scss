@@ -47,8 +47,13 @@ header {
   }
 }
 
+
 .tn, .Album1, .Album2, .Album3 {
   display: none;
+  img {
+    height: 350px;
+    width: 350px;
+  }
 }
 
 .currentPage {
