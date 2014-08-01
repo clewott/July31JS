@@ -38,12 +38,17 @@ header {
       list-style-type: none; }
     .container ul a {
       padding: 10px; }
+  .container img {
+    width: 350px; }
 
 .tn, .Album1, .Album2, .Album3 {
   display: none; }
-  .tn img, .Album1 img, .Album2 img, .Album3 img {
-    height: 350px;
-    width: 350px; }
 
 .currentPage {
   display: block; }
+
+.container .invisible {
+  display: none; }
+
+.currentImage img {
+  width: 500px; }

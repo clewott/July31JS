@@ -45,17 +45,28 @@ header {
         padding: 10px;
       }
   }
+  img {
+      width: 350px;
+  }
 }
 
 
 .tn, .Album1, .Album2, .Album3 {
   display: none;
-  img {
-    height: 350px;
-    width: 350px;
-  }
 }
 
 .currentPage {
   display: block;
+}
+
+.container {
+  .invisible {
+    display: none;
+  }
+}
+
+.currentImage {
+  img {
+    width: 500px;
+  }
 }

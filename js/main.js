@@ -10,23 +10,62 @@ $(document).ready(function() {
 
     $(pageToNavigate).addClass("currentPage");
 
+  });
+
+$('.Album1').on('click', '.image', function(event) {
+
+  event.preventDefault();
+  $(this).closest('li').siblings().addClass('invisible');
+  $(this).addClass('currentImage').removeClass('image');
+  $(this).closest('li').siblings().find('a').removeClass('image');
+});
+
+$('.Album1').on('click', '.currentImage', function(event) {
+
+  event.preventDefault();
+  $(this).addClass('image');
+  $(this).closest('li').siblings().find('a').addClass('image');
+  $(this).removeClass('currentImage');
+  $(this).closest('li').siblings().removeClass('invisible');
+
+});
+
+
+  $('.Album2').on('click', '.image', function(event) {
+
+    event.preventDefault();
+    $(this).closest('li').siblings().addClass('invisible');
+    $(this).addClass('currentImage').removeClass('image');
+    $(this).closest('li').siblings().find('a').removeClass('image');
+  });
+
+  $('.Album2').on('click', '.currentImage', function(event) {
+
+    event.preventDefault();
+    $(this).addClass('image');
+    $(this).closest('li').siblings().find('a').addClass('image');
+    $(this).removeClass('currentImage');
+    $(this).closest('li').siblings().removeClass('invisible');
 
   });
 
-$('.Album1 li').click(function(event) {
+  $('.Album3').on('click', '.image', function(event) {
 
     event.preventDefault();
-    $(this).siblings('li').toggle(); });
+    $(this).closest('li').siblings().addClass('invisible');
+    $(this).addClass('currentImage').removeClass('image');
+    $(this).closest('li').siblings().find('a').removeClass('image');
+  });
 
-$('.Album2 li').click(function(event) {
-
-    event.preventDefault();
-    $(this).siblings('li').toggle(); });
-
-$('.Album3 li').click(function(event) {
+  $('.Album3').on('click', '.currentImage', function(event) {
 
     event.preventDefault();
-    $(this).siblings('li').toggle(); });
+    $(this).addClass('image');
+    $(this).closest('li').siblings().find('a').addClass('image');
+    $(this).removeClass('currentImage');
+    $(this).closest('li').siblings().removeClass('invisible');
+
+  });
 
 
 });
