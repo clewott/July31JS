@@ -47,6 +47,8 @@ header {
   }
   img {
       width: 350px;
+      border-radius: 100%;
+      transition: all 2s ease;
   }
 }
 
@@ -68,5 +70,7 @@ header {
 .currentImage {
   img {
     width: 500px;
+    border-radius: 0;
+    transition: all 2s ease;
   }
 }

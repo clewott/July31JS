@@ -39,7 +39,9 @@ header {
     .container ul a {
       padding: 10px; }
   .container img {
-    width: 350px; }
+    width: 350px;
+    border-radius: 100%;
+    transition: all 2s ease; }
 
 .tn, .Album1, .Album2, .Album3 {
   display: none; }
@@ -51,4 +53,6 @@ header {
   display: none; }
 
 .currentImage img {
-  width: 500px; }
+  width: 500px;
+  border-radius: 0;
+  transition: all 2s ease; }
