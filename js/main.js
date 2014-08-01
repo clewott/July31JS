@@ -12,22 +12,28 @@ $(document).ready(function() {
 
   });
 
-  $('.album').on('click', '.image', function(event) {
+  // $('.album').on('click', '.image', function(event) {
+  //
+  //   event.preventDefault();
+  //   $(this).closest('li').siblings().addClass('invisible');
+  //   $(this).addClass('currentImage').removeClass('image');
+  //   $(this).closest('li').siblings().find('a').removeClass('image');
+  // });
+  //
+  // $('.album').on('click', '.currentImage', function(event) {
+  //
+  //   event.preventDefault();
+  //   $(this).addClass('image');
+  //   $(this).closest('li').siblings().find('a').addClass('image');
+  //   $(this).removeClass('currentImage');
+  //   $(this).closest('li').siblings().removeClass('invisible');
+  //
+  // });
 
+  $('.album a').click(function(event) {
     event.preventDefault();
-    $(this).closest('li').siblings().addClass('invisible');
-    $(this).addClass('currentImage').removeClass('image');
-    $(this).closest('li').siblings().find('a').removeClass('image');
-  });
-
-  $('.album').on('click', '.currentImage', function(event) {
-
-    event.preventDefault();
-    $(this).addClass('image');
-    $(this).closest('li').siblings().find('a').addClass('image');
-    $(this).removeClass('currentImage');
-    $(this).closest('li').siblings().removeClass('invisible');
-
-  });
+    $(this).closest('li').siblings().toggleClass('invisible');
+    $(this).toggleClass('currentImage');
+});
 
 });
