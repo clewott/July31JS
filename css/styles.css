@@ -1,0 +1,46 @@
+html {
+  background-color: grey; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto Slab', serif; }
+
+header {
+  text-align: center; }
+  header h1 {
+    font-size: 5em;
+    background-color: grey;
+    margin: 0;
+    height: 150px;
+    padding-top: 20px; }
+  header h2 {
+    background-color: yellow;
+    margin: 0; }
+    header h2 a {
+      text-decoration: none;
+      font-size: 2em;
+      color: grey; }
+    header h2 a:hover {
+      color: black; }
+
+.container {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  background-color: grey; }
+  .container ul {
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+    .container ul li {
+      display: inline-block;
+      list-style-type: none; }
+    .container ul a {
+      padding: 10px; }
+
+.tn, .Album1, .Album2, .Album3 {
+  display: none; }
+
+.currentPage {
+  display: block; }

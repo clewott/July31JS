@@ -1,0 +1,56 @@
+html {
+ background-color: grey;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto Slab', serif;
+}
+header {
+  text-align: center;
+  h1 {
+    font-size: 5em;
+    background-color: grey;
+    margin: 0;
+    height: 150px;
+    padding-top: 20px;
+  }
+  h2 {
+    background-color: yellow;
+    margin: 0;
+    a {
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+    }
+    a:hover {
+    color: black;
+    }
+  }
+}
+.container {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  background-color: grey;
+  ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      list-style-type: none;
+    }
+      a {
+        padding: 10px;
+      }
+  }
+}
+
+.tn, .Album1, .Album2, .Album3 {
+  display: none;
+}
+
+.currentPage {
+  display: block;
+}
