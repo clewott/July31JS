@@ -30,7 +30,7 @@ $(document).ready(function() {
   //
   // });
 
-  $('.album a').click(function(event) {
+  $('.album a').on('click', function(event) {
     event.preventDefault();
     $(this).closest('li').siblings().toggleClass('invisible');
     $(this).toggleClass('currentImage');
